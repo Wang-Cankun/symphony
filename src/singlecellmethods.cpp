@@ -8,6 +8,7 @@
 using namespace Rcpp;
 
 // [[Rcpp::depends(RcppArmadillo)]]
+// [[Rcpp::plugins(cpp11)]] 
 
 //typedef arma::mat MATTYPE;
 //typedef arma::vec VECTYPE;

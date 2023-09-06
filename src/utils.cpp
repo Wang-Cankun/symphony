@@ -1,3 +1,4 @@
+#define ARMA_64BIT_WORD 1
 #include <RcppArmadillo.h>
 #include <Rcpp.h>
 #include <iostream>
@@ -10,6 +11,7 @@ using namespace Rcpp;
 // Symphony utils----------------------------------
 
 // [[Rcpp::depends(RcppArmadillo)]]
+// [[Rcpp::plugins(cpp11)]] 
 
 // Computes the soft cluster assignments of query cells across reference clusters.
 // 
